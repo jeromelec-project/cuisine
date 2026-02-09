@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recettes de cuisine</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
     
+<div class="container">
+    <h1>Recettes de cuisine</h1>
+<form action="" method="post" class="formRecette">
+    <input type="text" name="recetteNom" id="recetteNom" placeholder="Nom de la recette">
+    <input type="text" name="recetteIngredients" id="recetteIngredients" placeholder="Ingrédients">
+    <select name="typeRecette" id="typeRecette" >
+        <option value="entree">Entrée</option>
+        <option value="plat">Plat</option>
+        <option value="dessert">Dessert</option>
+    </select>
+    <input type="submit" name="recetteAjouter" id="recetteAjouter" value="Ajouter">
+</form>
+
+</div>
+
+
+
 </body>
 </html>
