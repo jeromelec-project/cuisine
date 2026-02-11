@@ -12,17 +12,19 @@
 <div class="container">
     <h1>Recettes de cuisine</h1>
 <form action="" method="post" class="formRecette">
-    <input type="text" name="recetteNom" id="recetteNom" placeholder="Nom de la recette">
-    <input type="text" name="recetteIngredients" id="recetteIngredients" placeholder="Ingrédients">
-    <select name="typeRecette" id="typeRecette" >
+    <input type="text" name="recetteNom" id="inputRecetteNom" placeholder="Nom de la recette">
+    <input type="text" name="recetteIngredients" id="inputRecetteIngredients" placeholder="Ingrédients">
+    <select name="typeRecette" id="selectTypeRecette" >
         <option value="entree">Entrée</option>
         <option value="plat">Plat</option>
         <option value="dessert">Dessert</option>
     </select>
-    <input type="submit" name="recetteAjouter" id="recetteAjouter" value="Ajouter">
+    <button type="submit" name="recetteAjouter" id="inputRecetteAjouter" value="Ajouter">Ajouter</button>
 </form>
 
 </div>
+
+<div class="tableRecettes"></div>
 
 
 
