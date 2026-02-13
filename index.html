@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recettes de cuisine</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+
 <div class="container">
-    <h1>Recettes de cuisine</h1>
-<form action="" method="post" class="formRecette">
+        <h1>Recettes de cuisine</h1>
+
+<form action="" method="post" id="FormRecette">
     <input type="text" name="recetteNom" id="inputRecetteNom" placeholder="Nom de la recette">
     <input type="text" name="recetteIngredients" id="inputRecetteIngredients" placeholder="Ingrédients">
     <select name="typeRecette" id="selectTypeRecette" >
@@ -24,7 +25,7 @@
 
 </div>
 
-<div class="tableRecettes"></div>
+<div id="tableRecettes"></div>
 
 
 

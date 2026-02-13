@@ -4,13 +4,53 @@
     padding: 0;
 }
 
+h1 {
+    padding: 20px;
+}
+
 body {
+    color: #fff;
+
+}
+
+.container {
     font-family: Arial, sans-serif;
     background-color: #333;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    height: 10vh;
     margin: 0;
+    background-color: #555;
+}
+
+
+#tableRecettes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 90vh;
+    background-color: #333;
+}
+
+
+.tableauRecettes {
+    width: 80%;
+    border: 1px solid #666;
+    border-collapse: collapse;
+    background-color: #555;
+    color: #fff;
+}
+
+.tableauRecettes th,
+.tableauRecettes td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #666;
+    border-collapse: collapse;
+    background-color: #555;
+    color: #fff;
 }
